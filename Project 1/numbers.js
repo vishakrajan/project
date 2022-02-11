@@ -1,6 +1,8 @@
-
+function even(){
+  number = '' ;
   for (var i=0; i<=200; i+=2)
   {  
-    console.log(i);
+    number += ' ' + i + ' ' 
   }
-
+  document.getElementById("Even_Numbers").innerHTML = number;
+}
